@@ -1,0 +1,5 @@
+to benchmark compile the code:
+$ mvn clean package
+
+after run the generated .jar file:
+$ java -jar ./target/benchmarks.jar ParallelStreamBenchmark
